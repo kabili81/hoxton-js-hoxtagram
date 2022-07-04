@@ -1,20 +1,3 @@
-// Instructions
-// - Dynamically render the posts using the card HTML portion that you'll find commented in the index.html
-// - Render the comments for the posts and the likes, too. (note the heart button is useless. For now 😉)
-// - Try to use the same CSS classes to achieve the desired look
-
-// Tips
-// - Make some requests to your server and inspect the response, so you can check the data structure before start coding
-// - Feel free to use hardcoded values to take care of the visuals, before connecting your front end to the server
-// - Help yourselves by building helper functions, a la getImages() 
-
-// Challenge 1
-// Add a navigation bar that renders the user icon and name. Make sure the info for it comes from the server 
-
-// Challenge 2
-// When a user clicks the image - show a modal with more information (creative freedom on what information is shown here) 
-
-
 // solution goes here
 
 let state = {
