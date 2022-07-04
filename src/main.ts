@@ -17,8 +17,21 @@
 
 // solution goes here
 
+let state = {
+    images: []
+}
 
-
+function getImagesFromServer() {
+    // get the image data from our server
+    //put it in state
+    fetch('http://localhost:3000/images')
+    .then(resp => resp.json())
+    .then(getImagesFromServer => {
+        state.images = getImagesFromServer
+        card()
+    })
+    
+}
 
 function card() {
     // find the section i want to add stiff to 
