@@ -17,38 +17,8 @@
 
 // solution goes here
 
-// {
-//     "id": 1,
-//     "title": "Coder dog",
-//     "likes": 7,
-//     "image": "./assets/coder-dog.png",
-//     "comments": [
-//       {
-//         "id": 1,
-//         "content": "What a cute dog!",
-//         "imageId": 1
-//       },
-//       {
-//         "imageId": 1,
-//         "content": "Funny dog!!",
-//         "id": 4
-//       },
-//       {
-//         "imageId": 1,
-//         "content": "Hes a good boy!!",
-//         "id": 5
-//       }
-//     ]
-//   },
 
-let state = {
-    images: []
-}
 
-function getImagesFromServer() {
-    // get the image data from our server
-    //put it in state
-}
 
 function card() {
     // find the section i want to add stiff to 
